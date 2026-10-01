@@ -2,7 +2,7 @@
 
 ## 24 V DC → 12 V / 3 A, 5 V / 2 A et 3,3 V / 1 A
 
-![Rendu 3D du PCB](assets/images/image%20%283%29.png)
+![Rendu 3D du PCB](assets/images/pcb-3d-render.png)
 
 Projet de conception d’une alimentation DC-DC multi-sorties basée sur une entrée de 24 V DC. La carte a été étudiée pour fournir trois rails de tension régulés :
 
@@ -62,7 +62,7 @@ Cette architecture est adaptée à la génération de plusieurs rails d’alimen
 
 Le schéma électronique complet est disponible ici :
 
-![Schéma électronique](assets/images/schema.png)
+![Schéma électronique](assets/images/schematic-multi-output-buck.png)
 
 Le schéma présente notamment :
 
@@ -116,6 +116,7 @@ Ils comprennent six pages de calculs manuscrits couvrant notamment :
 ![Choix des composants](01_calculs/05-calcul-composants.jpg)
 
 ![Synthèse de dimensionnement](01_calculs/06-synthese-dimensionnement.jpg)
+
 ---
 
 ## Conception du PCB
@@ -126,19 +127,19 @@ Le PCB a été conçu avec Altium Designer en tenant compte de la circulation de
 
 #### Vue de la couche supérieure
 
-![Vue PCB - couche supérieure](assets/images/image%20%282%29.png)
+![Vue PCB - couche supérieure](assets/images/pcb-top-routing.png)
 
 #### Rendu 3D de la carte
 
-![Rendu 3D du PCB](assets/images/image%20%283%29.png)
+![Rendu 3D du PCB](assets/images/pcb-3d-render.png)
 
 #### Vue arrière du PCB
 
-![Vue arrière du PCB](assets/images/image%20%284%29.png)
+![Vue arrière du PCB](assets/images/pcb-bottom-view.png)
 
-#### Vue d’une couche interne
+#### Vue de la couche inférieure
 
-![Vue d’une couche du PCB](assets/images/image%20%281%29.png)
+![Vue de la couche inférieure du PCB](assets/images/pcb-bottom-layer.png)
 
 ---
 
@@ -199,6 +200,10 @@ Un modèle 3D de la carte a été exporté au format STEP pour permettre une fut
 
 - [Télécharger le modèle 3D STEP du PCB](hardware/exports/PCB1_step%203D.step)
 
+### Aperçu du modèle STEP dans SolidWorks
+
+![Aperçu du modèle STEP dans SolidWorks](assets/images/pcb-step-solidworks-view.png)
+
 Le modèle peut être ouvert avec un logiciel de CAO compatible avec le format STEP, comme FreeCAD, SolidWorks ou Fusion 360.
 
 ---
@@ -254,20 +259,21 @@ Ces fichiers permettent de retrouver la logique de conception et de poursuivre l
 ```text
 .
 ├── 01_calculs/
-│   ├── 1.png
-│   ├── 2.png
-│   ├── 3.png
-│   ├── 4.png
-│   ├── 5.png
-│   └── 6.png
+│   ├── 01-calcul-buck-boost.jpg
+│   ├── 02-calcul-tension-courant.jpg
+│   ├── 03-calcul-inductance.jpg
+│   ├── 04-calcul-condensateur.jpg
+│   ├── 05-calcul-composants.jpg
+│   └── 06-synthese-dimensionnement.jpg
 │
 ├── assets/
 │   └── images/
-│       ├── image (1).png
-│       ├── image (2).png
-│       ├── image (3).png
-│       ├── image (4).png
-│       └── schema.png
+│       ├── pcb-bottom-layer.png
+│       ├── pcb-top-routing.png
+│       ├── pcb-3d-render.png
+│       ├── pcb-bottom-view.png
+│       ├── pcb-step-solidworks-view.png
+│       └── schematic-multi-output-buck.png
 │
 ├── docs/
 │   └── datasheets/
