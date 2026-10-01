@@ -105,18 +105,17 @@ Ils comprennent six pages de calculs manuscrits couvrant notamment :
 
 ### Pages de calculs
 
-![Calculs de dimensionnement - page 1](01_calculs/1.png)
+![Calcul Buck et Boost](01_calculs/01-calcul-buck-boost.jpg)
 
-![Calculs de dimensionnement - page 2](01_calculs/2.png)
+![Calcul tension et courant](01_calculs/02-calcul-tension-courant.jpg)
 
-![Calculs de dimensionnement - page 3](01_calculs/3.png)
+![Dimensionnement inductance](01_calculs/03-calcul-inductance.jpg)
 
-![Calculs de dimensionnement - page 4](01_calculs/4.png)
+![Dimensionnement condensateur](01_calculs/04-calcul-condensateur.jpg)
 
-![Calculs de dimensionnement - page 5](01_calculs/5.png)
+![Choix des composants](01_calculs/05-calcul-composants.jpg)
 
-![Calculs de dimensionnement - page 6](01_calculs/6.png)
-
+![Synthèse de dimensionnement](01_calculs/06-synthese-dimensionnement.jpg)
 ---
 
 ## Conception du PCB
